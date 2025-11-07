@@ -24,7 +24,6 @@
     --radius-lg: 16px;
 }
 
-
 /* Reset y base */
 * {
     box-sizing: border-box;
@@ -126,12 +125,6 @@ body,
     background: var(--primary);
     color: white;
     border-color: var(--primary);
-}
-
-@media (max-width: 768px) {
-    .chat-header {
-        padding: 10px 16px;
-    }
 }
 
 @media (max-width: 480px) {
