@@ -11,6 +11,7 @@
     background: var(--bg);
     position: relative;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 
 .messages-container {
@@ -149,6 +150,10 @@
         max-height: none;
     }
 
+    .message-area {
+        margin-bottom: 15px;
+    }
+
     .message-bubble {
         max-width: 85%;
         padding: 10px 14px;
@@ -167,6 +172,10 @@
     .messages-container {
         max-height: none;
         padding: 12px 16px;
+    }
+
+    .message-area {
+        margin-bottom: 15px;
     }
 
     .message-bubble {
