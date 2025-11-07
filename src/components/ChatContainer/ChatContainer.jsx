@@ -55,7 +55,7 @@ const ChatContainer = ({ messages, onlineUsers, sendMessage, isConnected, userna
                             className={`header-controls-button users-button ${showUsers ? 'active' : ''}`}
                         
                         >
-                            👥
+                            👥<span className='total-users'>{onlineUsers.length}</span>
                         </button>
                     </div>
                 </header>
