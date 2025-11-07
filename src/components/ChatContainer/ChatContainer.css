@@ -145,6 +145,7 @@
         padding: 16px;
         gap: 12px;
         max-height: calc(100vh - 140px);
+        padding-bottom: 40px;
     }
 
     .users-button {
@@ -172,5 +173,6 @@
 @media (max-width: 480px) {
     .messages-container {
         max-height: calc(100vh - 140px);
+        padding-bottom: 40px;
     }
 }
