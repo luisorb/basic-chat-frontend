@@ -24,6 +24,7 @@
     --radius-lg: 16px;
 }
 
+
 /* Reset y base */
 * {
     box-sizing: border-box;
@@ -34,11 +35,9 @@
 html,
 body,
 #root {
-    height: 100%;
     font-family: 'Inter', system-ui, sans-serif;
     background: var(--surface);
     color: var(--text);
-    line-height: 1.5;
 }
 
 /* Paneles laterales */
