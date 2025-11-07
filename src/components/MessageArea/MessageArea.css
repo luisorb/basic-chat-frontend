@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    max-height: calc(100vh - 140px);
+    max-height: none;
 }
 
 .message-bubble {
@@ -146,7 +146,7 @@
     .messages-container {
         padding: 16px;
         gap: 8px;
-        max-height: calc(100vh - 130px);
+        max-height: none;
     }
 
     .message-bubble {
@@ -165,7 +165,7 @@
 
 @media (max-width: 480px) {
     .messages-container {
-        max-height: calc(100vh - 130px);
+        max-height: none;
         padding: 12px 16px;
     }
 
