@@ -6,6 +6,8 @@
     background: var(--bg);
     border-top: 1px solid var(--border);
     flex-shrink: 0;
+    bottom: 0;
+    position: sticky;
 }
 
 .message-input-form input {
